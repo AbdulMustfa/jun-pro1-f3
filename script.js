@@ -9,8 +9,8 @@ function renderEmployees() {
     const employeeDiv = document.createElement('div');
     employeeDiv.id = 'employee_' + employee.id;
     employeeDiv.innerHTML = `
-      <span>${employee.name}, ${employee.profession}, ${employee.age}</span>
-      <button type="button" onclick="deleteEmployee(${employee.id})">Delete</button>
+      <span style="padding: 10px;">${employee.id}.&nbsp;&nbsp; Name: &nbsp;${employee.name} &nbsp;&nbsp; Profession: &nbsp;${employee.profession} &nbsp;&nbsp; Age: &nbsp;${employee.age}</span>
+      <button type="button" onclick="deleteEmployee(${employee.id})"style="margin:10px;" >Delete</button>
     `;
     addedEmployeesDiv.appendChild(employeeDiv);
   });
