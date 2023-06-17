@@ -1,0 +1,51 @@
+
+
+
+body{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 101px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#addEmployeeButton{
+    padding: 5px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    width: 8%;
+}
+.form-row>label{
+    margin-left: 4px;
+    line-height: 30px;
+}
+.form-row {
+    width: 21%;
+}
+.form-row>input{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    width: 125%;
+    height: 20px;
+}
+#addedEmployees{
+    padding: 20px;
+}
+
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+
+
+

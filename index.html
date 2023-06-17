@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend 3 Contest-1- June</title>
+</head>
+<body>
+    <h1>Employee Form</h1>
+    <form id="employeeForm">
+        <div class="form-body">
+            <div class="form-row">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-row">
+                <label for="profession">Profession</label><br>
+                <input type="text" id="profession" required>
+            </div>
+            <div class="form-row">
+                <label for="age">Age</label><br>
+                <input type="number" id="age" required>
+            </div>
+        </div>
+        <button type="button" id="addEmployeeButton">Add User</button>
+    </form>
+    <h2>Added Employees:</h2>
+    <div id="addedEmployees"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
